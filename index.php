@@ -1,4 +1,10 @@
 <?php
+
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
+
+
 /*
 miniProxy - A simple PHP web proxy. <https://github.com/joshdick/miniProxy>
 Written and maintained by Joshua Dick <http://joshdick.net>.
